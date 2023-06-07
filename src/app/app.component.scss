@@ -1,0 +1,27 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(30, minmax(0, 20px));
+    margin: auto;
+
+    .box {
+        background-color: rgb(28, 28, 28);
+        width: 20px;
+        height: 20px;
+    }
+
+    .snake {
+        background-color: rgb(38, 176, 68);
+    }
+
+    .apple {
+        background-color: rgb(149, 0, 0);
+    }
+}
+
+.scoreboard {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: fit-content;
+    margin: 2px auto 0px auto;
+    color: rgb(0, 200, 255);
+    font-weight: 900;
+}

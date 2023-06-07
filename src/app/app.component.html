@@ -1,0 +1,4 @@
+<div class="board">
+  <div class="box" *ngFor="let item of gridArray" [class]="snakeArray.includes(item) ? 'snake' : '' || item === apple ? 'apple' : '' "></div>
+</div>
+<div class="scoreboard">Score: {{scoreBoard}} Pts</div>
